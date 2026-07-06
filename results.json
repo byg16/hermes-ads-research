@@ -1,0 +1,160 @@
+{
+  "BTC": {
+    "metrics": {
+      "trades": 945,
+      "hit_rate": 0.4931,
+      "hit_rate_pct": "49.3%",
+      "sharpe_ratio": -24.515,
+      "max_drawdown_pct": "91.9%",
+      "total_pnl_usd": -779.64,
+      "final_bankroll_usd": 220.36,
+      "return_pct": "-78.0%"
+    },
+    "walk_forward": [
+      {
+        "trades": 95,
+        "hit_rate": 0.5368,
+        "hit_rate_pct": "53.7%",
+        "sharpe_ratio": 10.898,
+        "max_drawdown_pct": "42.5%",
+        "total_pnl_usd": 81.27,
+        "final_bankroll_usd": 1081.27,
+        "return_pct": "8.1%",
+        "window": 1,
+        "bar_start": 0,
+        "bar_end": 600
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.5053,
+        "hit_rate_pct": "50.5%",
+        "sharpe_ratio": -11.971,
+        "max_drawdown_pct": "56.2%",
+        "total_pnl_usd": -77.79,
+        "final_bankroll_usd": 922.21,
+        "return_pct": "-7.8%",
+        "window": 2,
+        "bar_start": 100,
+        "bar_end": 700
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.4842,
+        "hit_rate_pct": "48.4%",
+        "sharpe_ratio": 0.651,
+        "max_drawdown_pct": "42.7%",
+        "total_pnl_usd": 4.6,
+        "final_bankroll_usd": 1004.6,
+        "return_pct": "0.5%",
+        "window": 3,
+        "bar_start": 200,
+        "bar_end": 800
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.5263,
+        "hit_rate_pct": "52.6%",
+        "sharpe_ratio": 11.476,
+        "max_drawdown_pct": "45.7%",
+        "total_pnl_usd": 107.43,
+        "final_bankroll_usd": 1107.43,
+        "return_pct": "10.7%",
+        "window": 4,
+        "bar_start": 300,
+        "bar_end": 900
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.5368,
+        "hit_rate_pct": "53.7%",
+        "sharpe_ratio": 25.48,
+        "max_drawdown_pct": "30.0%",
+        "total_pnl_usd": 210.03,
+        "final_bankroll_usd": 1210.03,
+        "return_pct": "21.0%",
+        "window": 5,
+        "bar_start": 400,
+        "bar_end": 1000
+      }
+    ]
+  },
+  "ETH": {
+    "metrics": {
+      "trades": 945,
+      "hit_rate": 0.4952,
+      "hit_rate_pct": "49.5%",
+      "sharpe_ratio": -26.386,
+      "max_drawdown_pct": "91.8%",
+      "total_pnl_usd": -856.09,
+      "final_bankroll_usd": 143.91,
+      "return_pct": "-85.6%"
+    },
+    "walk_forward": [
+      {
+        "trades": 95,
+        "hit_rate": 0.5158,
+        "hit_rate_pct": "51.6%",
+        "sharpe_ratio": -39.548,
+        "max_drawdown_pct": "52.9%",
+        "total_pnl_usd": -182.82,
+        "final_bankroll_usd": 817.18,
+        "return_pct": "-18.3%",
+        "window": 1,
+        "bar_start": 0,
+        "bar_end": 600
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.5368,
+        "hit_rate_pct": "53.7%",
+        "sharpe_ratio": 14.39,
+        "max_drawdown_pct": "41.3%",
+        "total_pnl_usd": 94.63,
+        "final_bankroll_usd": 1094.63,
+        "return_pct": "9.5%",
+        "window": 2,
+        "bar_start": 100,
+        "bar_end": 700
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.4421,
+        "hit_rate_pct": "44.2%",
+        "sharpe_ratio": -79.964,
+        "max_drawdown_pct": "42.9%",
+        "total_pnl_usd": -429.01,
+        "final_bankroll_usd": 570.99,
+        "return_pct": "-42.9%",
+        "window": 3,
+        "bar_start": 200,
+        "bar_end": 800
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.4632,
+        "hit_rate_pct": "46.3%",
+        "sharpe_ratio": -35.203,
+        "max_drawdown_pct": "51.7%",
+        "total_pnl_usd": -243.65,
+        "final_bankroll_usd": 756.35,
+        "return_pct": "-24.4%",
+        "window": 4,
+        "bar_start": 300,
+        "bar_end": 900
+      },
+      {
+        "trades": 95,
+        "hit_rate": 0.5579,
+        "hit_rate_pct": "55.8%",
+        "sharpe_ratio": 15.614,
+        "max_drawdown_pct": "31.1%",
+        "total_pnl_usd": 129.22,
+        "final_bankroll_usd": 1129.22,
+        "return_pct": "12.9%",
+        "window": 5,
+        "bar_start": 400,
+        "bar_end": 1000
+      }
+    ]
+  }
+}
