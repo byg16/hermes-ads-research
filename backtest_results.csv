@@ -1,0 +1,55 @@
+Individual Signals
+Signal,Hit Rate,Trades
+5min:n1,48.7%,25818
+5min:n2,48.2%,25818
+1min:n5,49.0%,25818
+
+Cascade Combined
+Conviction,Hit Rate,Trades,PnL
+HIGH_conviction_3of3,56.7%,2054,$93.69
+MEDIUM_conviction_2of3,52.4%,1186,$12.50
+
+Overall Schema Comparison
+Schema,Final Bankroll,Total Return,Edge Slots
+CASCADE HIGH (3/3),$1093.69,9.4%,21
+5min:n+1 ONLY,$1060.03,6.0%,16
+1min:n+5 ONLY,$1018.05,1.8%,14
+
+CASCADE HIGH (3/3) Day-Hour Breakdown (Top 10)
+Day_Hour,Hit Rate,Trades,PnL,Edge?
+Wed_13:00,62.4%,117,$14.99,✅
+Wed_15:00,64.2%,109,$10.72,✅
+Thu_03:00,56.0%,100,$9.31,✅
+Tue_12:00,57.5%,106,$9.18,✅
+Sun_22:00,56.6%,106,$8.89,✅
+Fri_13:00,55.6%,117,$8.86,✅
+Thu_00:00,55.0%,100,$5.39,✅
+Thu_07:00,53.3%,105,$4.83,✅
+Fri_20:00,54.3%,92,$4.69,✅
+Tue_00:00,60.9%,92,$3.48,✅
+
+5min:n+1 ONLY Day-Hour Breakdown (Top 10)
+Day_Hour,Hit Rate,Trades,PnL,Edge?
+Fri_13:00,54.2%,144,$10.16,✅
+Wed_15:00,57.1%,156,$7.39,✅
+Sun_22:00,53.8%,156,$6.89,✅
+Wed_13:00,56.4%,156,$6.67,✅
+Tue_08:00,53.8%,156,$4.13,✅
+Thu_15:00,56.9%,144,$3.72,✅
+Fri_06:00,57.6%,144,$3.22,✅
+Thu_10:00,53.8%,156,$3.02,✅
+Tue_00:00,54.5%,156,$2.89,✅
+Thu_01:00,53.8%,156,$2.81,✅
+
+1min:n+5 ONLY Day-Hour Breakdown (Top 10)
+Day_Hour,Hit Rate,Trades,PnL,Edge?
+Mon_00:00,61.5%,156,$3.28,✅
+Fri_15:00,58.3%,144,$2.60,✅
+Tue_10:00,55.1%,156,$1.98,✅
+Sat_20:00,53.8%,156,$1.77,✅
+Wed_20:00,58.3%,156,$1.34,✅
+Wed_18:00,53.8%,156,$1.27,✅
+Tue_16:00,53.8%,156,$1.23,✅
+Fri_16:00,54.9%,144,$1.16,✅
+Fri_21:00,58.1%,148,$0.89,✅
+Wed_08:00,54.5%,156,$0.78,✅

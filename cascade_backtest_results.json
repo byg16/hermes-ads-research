@@ -1,0 +1,729 @@
+{
+  "BTC": {
+    "asset": "BTC",
+    "type": "BACKTEST",
+    "run_at": "2026-07-16T13:19:12.318818+00:00",
+    "data_period": "Past 3 months Binance historical",
+    "NOTE": "This is BACKTEST data. NOT sent to dashboard.",
+    "individual_signals": {
+      "5min_n1": {
+        "hit_rate": "48.7%",
+        "trades": 25818
+      },
+      "5min_n2": {
+        "hit_rate": "48.2%",
+        "trades": 25818
+      },
+      "1min_n5": {
+        "hit_rate": "49.0%",
+        "trades": 25818
+      }
+    },
+    "cascade_combined": {
+      "HIGH_conviction_3of3": {
+        "hit_rate": "56.7%",
+        "trades": 2054,
+        "pnl": 93.69
+      },
+      "MEDIUM_conviction_2of3": {
+        "hit_rate": "52.4%",
+        "trades": 1186,
+        "pnl": 12.5
+      }
+    },
+    "hourly_breakdown": {
+      "00:00": {
+        "trades": 276,
+        "hit_rate": "58.7%",
+        "pnl": 10.04,
+        "edge": true
+      },
+      "01:00": {
+        "trades": 94,
+        "hit_rate": "53.2%",
+        "pnl": 2.44,
+        "edge": true
+      },
+      "02:00": {
+        "trades": 100,
+        "hit_rate": "55.0%",
+        "pnl": 1.65,
+        "edge": true
+      },
+      "03:00": {
+        "trades": 285,
+        "hit_rate": "55.8%",
+        "pnl": 11.39,
+        "edge": true
+      },
+      "05:00": {
+        "trades": 88,
+        "hit_rate": "54.5%",
+        "pnl": 0.18,
+        "edge": true
+      },
+      "07:00": {
+        "trades": 105,
+        "hit_rate": "53.3%",
+        "pnl": 4.83,
+        "edge": true
+      },
+      "12:00": {
+        "trades": 106,
+        "hit_rate": "57.5%",
+        "pnl": 9.18,
+        "edge": true
+      },
+      "13:00": {
+        "trades": 234,
+        "hit_rate": "59.0%",
+        "pnl": 23.85,
+        "edge": true
+      },
+      "14:00": {
+        "trades": 192,
+        "hit_rate": "54.7%",
+        "pnl": 1.78,
+        "edge": true
+      },
+      "15:00": {
+        "trades": 109,
+        "hit_rate": "64.2%",
+        "pnl": 10.72,
+        "edge": true
+      },
+      "20:00": {
+        "trades": 92,
+        "hit_rate": "54.3%",
+        "pnl": 4.69,
+        "edge": true
+      },
+      "22:00": {
+        "trades": 197,
+        "hit_rate": "55.8%",
+        "pnl": 9.13,
+        "edge": true
+      },
+      "23:00": {
+        "trades": 176,
+        "hit_rate": "56.8%",
+        "pnl": 3.82,
+        "edge": true
+      }
+    },
+    "daily_breakdown": {
+      "Mon": {
+        "trades": 201,
+        "hit_rate": "53.7%",
+        "pnl": 2.85,
+        "edge": true
+      },
+      "Tue": {
+        "trades": 473,
+        "hit_rate": "56.9%",
+        "pnl": 15.65,
+        "edge": true
+      },
+      "Wed": {
+        "trades": 424,
+        "hit_rate": "59.2%",
+        "pnl": 29.34,
+        "edge": true
+      },
+      "Thu": {
+        "trades": 305,
+        "hit_rate": "54.8%",
+        "pnl": 19.53,
+        "edge": true
+      },
+      "Fri": {
+        "trades": 462,
+        "hit_rate": "56.9%",
+        "pnl": 16.8,
+        "edge": true
+      },
+      "Sat": {
+        "trades": 83,
+        "hit_rate": "55.4%",
+        "pnl": 0.64,
+        "edge": true
+      },
+      "Sun": {
+        "trades": 106,
+        "hit_rate": "56.6%",
+        "pnl": 8.89,
+        "edge": true
+      }
+    },
+    "day_hourly_breakdown": {
+      "Mon_03:00": {
+        "trades": 92,
+        "hit_rate": "53.3%",
+        "pnl": 1.71,
+        "edge": true
+      },
+      "Mon_14:00": {
+        "trades": 109,
+        "hit_rate": "54.1%",
+        "pnl": 1.14,
+        "edge": true
+      },
+      "Tue_00:00": {
+        "trades": 92,
+        "hit_rate": "60.9%",
+        "pnl": 3.48,
+        "edge": true
+      },
+      "Tue_01:00": {
+        "trades": 94,
+        "hit_rate": "53.2%",
+        "pnl": 2.44,
+        "edge": true
+      },
+      "Tue_03:00": {
+        "trades": 93,
+        "hit_rate": "58.1%",
+        "pnl": 0.37,
+        "edge": true
+      },
+      "Tue_05:00": {
+        "trades": 88,
+        "hit_rate": "54.5%",
+        "pnl": 0.18,
+        "edge": true
+      },
+      "Tue_12:00": {
+        "trades": 106,
+        "hit_rate": "57.5%",
+        "pnl": 9.18,
+        "edge": true
+      },
+      "Wed_02:00": {
+        "trades": 100,
+        "hit_rate": "55.0%",
+        "pnl": 1.65,
+        "edge": true
+      },
+      "Wed_13:00": {
+        "trades": 117,
+        "hit_rate": "62.4%",
+        "pnl": 14.99,
+        "edge": true
+      },
+      "Wed_15:00": {
+        "trades": 109,
+        "hit_rate": "64.2%",
+        "pnl": 10.72,
+        "edge": true
+      },
+      "Wed_23:00": {
+        "trades": 98,
+        "hit_rate": "54.1%",
+        "pnl": 1.97,
+        "edge": true
+      },
+      "Thu_00:00": {
+        "trades": 100,
+        "hit_rate": "55.0%",
+        "pnl": 5.39,
+        "edge": true
+      },
+      "Thu_03:00": {
+        "trades": 100,
+        "hit_rate": "56.0%",
+        "pnl": 9.31,
+        "edge": true
+      },
+      "Thu_07:00": {
+        "trades": 105,
+        "hit_rate": "53.3%",
+        "pnl": 4.83,
+        "edge": true
+      },
+      "Fri_00:00": {
+        "trades": 84,
+        "hit_rate": "60.7%",
+        "pnl": 1.17,
+        "edge": true
+      },
+      "Fri_13:00": {
+        "trades": 117,
+        "hit_rate": "55.6%",
+        "pnl": 8.86,
+        "edge": true
+      },
+      "Fri_20:00": {
+        "trades": 92,
+        "hit_rate": "54.3%",
+        "pnl": 4.69,
+        "edge": true
+      },
+      "Fri_22:00": {
+        "trades": 91,
+        "hit_rate": "54.9%",
+        "pnl": 0.23,
+        "edge": true
+      },
+      "Fri_23:00": {
+        "trades": 78,
+        "hit_rate": "60.3%",
+        "pnl": 1.85,
+        "edge": true
+      },
+      "Sat_14:00": {
+        "trades": 83,
+        "hit_rate": "55.4%",
+        "pnl": 0.64,
+        "edge": true
+      },
+      "Sun_22:00": {
+        "trades": 106,
+        "hit_rate": "56.6%",
+        "pnl": 8.89,
+        "edge": true
+      }
+    },
+    "best_hours_utc": [
+      "00:00",
+      "01:00",
+      "02:00",
+      "03:00",
+      "05:00",
+      "07:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "20:00",
+      "22:00",
+      "23:00"
+    ],
+    "5m_n1_hourly_breakdown": {
+      "00:00": {
+        "trades": 156,
+        "hit_rate": "54.5%",
+        "pnl": 2.89,
+        "edge": true
+      },
+      "01:00": {
+        "trades": 312,
+        "hit_rate": "53.5%",
+        "pnl": 3.07,
+        "edge": true
+      },
+      "06:00": {
+        "trades": 300,
+        "hit_rate": "56.7%",
+        "pnl": 5.0,
+        "edge": true
+      },
+      "08:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 4.13,
+        "edge": true
+      },
+      "10:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 3.02,
+        "edge": true
+      },
+      "13:00": {
+        "trades": 300,
+        "hit_rate": "55.3%",
+        "pnl": 16.83,
+        "edge": true
+      },
+      "15:00": {
+        "trades": 300,
+        "hit_rate": "57.0%",
+        "pnl": 11.12,
+        "edge": true
+      },
+      "17:00": {
+        "trades": 156,
+        "hit_rate": "54.5%",
+        "pnl": 0.82,
+        "edge": true
+      },
+      "21:00": {
+        "trades": 300,
+        "hit_rate": "55.0%",
+        "pnl": 5.34,
+        "edge": true
+      },
+      "22:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 6.89,
+        "edge": true
+      },
+      "23:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 0.92,
+        "edge": true
+      }
+    },
+    "5m_n1_daily_breakdown": {
+      "Tue": {
+        "trades": 312,
+        "hit_rate": "54.2%",
+        "pnl": 7.01,
+        "edge": true
+      },
+      "Wed": {
+        "trades": 468,
+        "hit_rate": "56.4%",
+        "pnl": 16.79,
+        "edge": true
+      },
+      "Thu": {
+        "trades": 756,
+        "hit_rate": "54.9%",
+        "pnl": 13.95,
+        "edge": true
+      },
+      "Fri": {
+        "trades": 444,
+        "hit_rate": "55.9%",
+        "pnl": 14.3,
+        "edge": true
+      },
+      "Sat": {
+        "trades": 312,
+        "hit_rate": "53.8%",
+        "pnl": 1.08,
+        "edge": true
+      },
+      "Sun": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 6.89,
+        "edge": true
+      }
+    },
+    "5m_n1_day_hourly_breakdown": {
+      "Tue_00:00": {
+        "trades": 156,
+        "hit_rate": "54.5%",
+        "pnl": 2.89,
+        "edge": true
+      },
+      "Tue_08:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 4.13,
+        "edge": true
+      },
+      "Wed_13:00": {
+        "trades": 156,
+        "hit_rate": "56.4%",
+        "pnl": 6.67,
+        "edge": true
+      },
+      "Wed_15:00": {
+        "trades": 156,
+        "hit_rate": "57.1%",
+        "pnl": 7.39,
+        "edge": true
+      },
+      "Wed_21:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 2.72,
+        "edge": true
+      },
+      "Thu_01:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 2.81,
+        "edge": true
+      },
+      "Thu_06:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 1.78,
+        "edge": true
+      },
+      "Thu_10:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 3.02,
+        "edge": true
+      },
+      "Thu_15:00": {
+        "trades": 144,
+        "hit_rate": "56.9%",
+        "pnl": 3.72,
+        "edge": true
+      },
+      "Thu_21:00": {
+        "trades": 144,
+        "hit_rate": "54.2%",
+        "pnl": 2.61,
+        "edge": true
+      },
+      "Fri_06:00": {
+        "trades": 144,
+        "hit_rate": "57.6%",
+        "pnl": 3.22,
+        "edge": true
+      },
+      "Fri_13:00": {
+        "trades": 144,
+        "hit_rate": "54.2%",
+        "pnl": 10.16,
+        "edge": true
+      },
+      "Fri_23:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 0.92,
+        "edge": true
+      },
+      "Sat_01:00": {
+        "trades": 156,
+        "hit_rate": "53.2%",
+        "pnl": 0.26,
+        "edge": true
+      },
+      "Sat_17:00": {
+        "trades": 156,
+        "hit_rate": "54.5%",
+        "pnl": 0.82,
+        "edge": true
+      },
+      "Sun_22:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 6.89,
+        "edge": true
+      }
+    },
+    "5m_n1_best_hours_utc": [
+      "00:00",
+      "01:00",
+      "06:00",
+      "08:00",
+      "10:00",
+      "13:00",
+      "15:00",
+      "17:00",
+      "21:00",
+      "22:00",
+      "23:00"
+    ],
+    "5m_n1_final_bankroll": 1060.03,
+    "5m_n1_total_return": "6.0%",
+    "1m_n5_hourly_breakdown": {
+      "00:00": {
+        "trades": 156,
+        "hit_rate": "61.5%",
+        "pnl": 3.28,
+        "edge": true
+      },
+      "04:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 0.56,
+        "edge": true
+      },
+      "08:00": {
+        "trades": 156,
+        "hit_rate": "54.5%",
+        "pnl": 0.78,
+        "edge": true
+      },
+      "10:00": {
+        "trades": 156,
+        "hit_rate": "55.1%",
+        "pnl": 1.98,
+        "edge": true
+      },
+      "15:00": {
+        "trades": 144,
+        "hit_rate": "58.3%",
+        "pnl": 2.6,
+        "edge": true
+      },
+      "16:00": {
+        "trades": 456,
+        "hit_rate": "54.2%",
+        "pnl": 3.01,
+        "edge": true
+      },
+      "18:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 1.27,
+        "edge": true
+      },
+      "20:00": {
+        "trades": 456,
+        "hit_rate": "56.1%",
+        "pnl": 3.33,
+        "edge": true
+      },
+      "21:00": {
+        "trades": 148,
+        "hit_rate": "58.1%",
+        "pnl": 0.89,
+        "edge": true
+      },
+      "23:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 0.36,
+        "edge": true
+      }
+    },
+    "1m_n5_daily_breakdown": {
+      "Mon": {
+        "trades": 156,
+        "hit_rate": "61.5%",
+        "pnl": 3.28,
+        "edge": true
+      },
+      "Tue": {
+        "trades": 312,
+        "hit_rate": "54.5%",
+        "pnl": 3.22,
+        "edge": true
+      },
+      "Wed": {
+        "trades": 780,
+        "hit_rate": "55.3%",
+        "pnl": 4.56,
+        "edge": true
+      },
+      "Thu": {
+        "trades": 144,
+        "hit_rate": "56.2%",
+        "pnl": 0.23,
+        "edge": true
+      },
+      "Fri": {
+        "trades": 436,
+        "hit_rate": "57.1%",
+        "pnl": 4.65,
+        "edge": true
+      },
+      "Sat": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 1.77,
+        "edge": true
+      },
+      "Sun": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 0.36,
+        "edge": true
+      }
+    },
+    "1m_n5_day_hourly_breakdown": {
+      "Mon_00:00": {
+        "trades": 156,
+        "hit_rate": "61.5%",
+        "pnl": 3.28,
+        "edge": true
+      },
+      "Tue_10:00": {
+        "trades": 156,
+        "hit_rate": "55.1%",
+        "pnl": 1.98,
+        "edge": true
+      },
+      "Tue_16:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 1.23,
+        "edge": true
+      },
+      "Wed_04:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 0.56,
+        "edge": true
+      },
+      "Wed_08:00": {
+        "trades": 156,
+        "hit_rate": "54.5%",
+        "pnl": 0.78,
+        "edge": true
+      },
+      "Wed_16:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 0.61,
+        "edge": true
+      },
+      "Wed_18:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 1.27,
+        "edge": true
+      },
+      "Wed_20:00": {
+        "trades": 156,
+        "hit_rate": "58.3%",
+        "pnl": 1.34,
+        "edge": true
+      },
+      "Thu_20:00": {
+        "trades": 144,
+        "hit_rate": "56.2%",
+        "pnl": 0.23,
+        "edge": true
+      },
+      "Fri_15:00": {
+        "trades": 144,
+        "hit_rate": "58.3%",
+        "pnl": 2.6,
+        "edge": true
+      },
+      "Fri_16:00": {
+        "trades": 144,
+        "hit_rate": "54.9%",
+        "pnl": 1.16,
+        "edge": true
+      },
+      "Fri_21:00": {
+        "trades": 148,
+        "hit_rate": "58.1%",
+        "pnl": 0.89,
+        "edge": true
+      },
+      "Sat_20:00": {
+        "trades": 156,
+        "hit_rate": "53.8%",
+        "pnl": 1.77,
+        "edge": true
+      },
+      "Sun_23:00": {
+        "trades": 156,
+        "hit_rate": "55.8%",
+        "pnl": 0.36,
+        "edge": true
+      }
+    },
+    "1m_n5_best_hours_utc": [
+      "00:00",
+      "04:00",
+      "08:00",
+      "10:00",
+      "15:00",
+      "16:00",
+      "18:00",
+      "20:00",
+      "21:00",
+      "23:00"
+    ],
+    "1m_n5_final_bankroll": 1018.05,
+    "1m_n5_total_return": "1.8%",
+    "final_bankroll": 1093.69,
+    "total_return": "9.4%"
+  }
+}

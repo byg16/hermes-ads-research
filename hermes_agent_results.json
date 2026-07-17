@@ -1,0 +1,302 @@
+[
+  {
+    "asset": "BTC",
+    "timestamp": "2026-07-08T06:02:36.838281+00:00",
+    "prediction": {
+      "p_up": 0.3629,
+      "p_down": 0.6371,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.5040 rsi=50.8(-0.016) vol_sig=-0.321 trend=0.0 combined=-0.5629"
+    },
+    "performance": {
+      "hit_rate": 0.5,
+      "sharpe": 0.0,
+      "bankroll": 1000.0,
+      "n_trades": 0
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=63.71% kelly=5.00%"
+    },
+    "stake_usd": 50.0,
+    "bankroll": 1000.0,
+    "simulated_outcome": {
+      "correct": true,
+      "pnl_usd": 50.0,
+      "new_bankroll": 1050.0
+    }
+  },
+  {
+    "asset": "ETH",
+    "timestamp": "2026-07-08T06:03:43.997242+00:00",
+    "prediction": {
+      "p_up": 0.3961,
+      "p_down": 0.6039,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.3122 rsi=57.0(-0.140) vol_sig=-0.214 trend=0.0 combined=-0.4217"
+    },
+    "performance": {
+      "hit_rate": 0.5,
+      "sharpe": 0.0,
+      "bankroll": 1050.0,
+      "n_trades": 0
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=60.39% kelly=5.00%"
+    },
+    "stake_usd": 52.5,
+    "bankroll": 1050.0,
+    "simulated_outcome": {
+      "correct": false,
+      "pnl_usd": -52.5,
+      "new_bankroll": 997.5
+    }
+  },
+  {
+    "asset": "BTC",
+    "timestamp": "2026-07-08T06:04:48.341773+00:00",
+    "prediction": {
+      "p_up": 0.4459,
+      "p_down": 0.5541,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.1124 rsi=54.1(-0.083) vol_sig=-0.176 trend=0.0 combined=-0.2173"
+    },
+    "performance": {
+      "hit_rate": 1.0,
+      "sharpe": 0.0,
+      "bankroll": 997.5,
+      "n_trades": 1
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=55.41% kelly=5.00%"
+    },
+    "stake_usd": 49.88,
+    "bankroll": 997.5,
+    "simulated_outcome": {
+      "correct": false,
+      "pnl_usd": -49.88,
+      "new_bankroll": 947.62
+    }
+  },
+  {
+    "asset": "ETH",
+    "timestamp": "2026-07-08T06:05:52.844505+00:00",
+    "prediction": {
+      "p_up": 0.391,
+      "p_down": 0.609,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.1212 rsi=60.1(-0.201) vol_sig=-0.495 trend=0.0 combined=-0.4431"
+    },
+    "performance": {
+      "hit_rate": 0.0,
+      "sharpe": 0.0,
+      "bankroll": 947.62,
+      "n_trades": 1
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=60.90% kelly=5.00%"
+    },
+    "stake_usd": 47.38,
+    "bankroll": 947.62,
+    "simulated_outcome": {
+      "correct": true,
+      "pnl_usd": 47.38,
+      "new_bankroll": 995.0
+    }
+  },
+  {
+    "asset": "BTC",
+    "timestamp": "2026-07-08T06:06:58.359118+00:00",
+    "prediction": {
+      "p_up": 0.4455,
+      "p_down": 0.5545,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.0475 rsi=51.1(-0.021) vol_sig=-0.342 trend=0.0 combined=-0.2190"
+    },
+    "performance": {
+      "hit_rate": 0.5,
+      "sharpe": 0.0,
+      "bankroll": 995.0,
+      "n_trades": 2
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=55.45% kelly=5.00%"
+    },
+    "stake_usd": 49.75,
+    "bankroll": 995.0,
+    "simulated_outcome": {
+      "correct": false,
+      "pnl_usd": -49.75,
+      "new_bankroll": 945.25
+    }
+  },
+  {
+    "asset": "ETH",
+    "timestamp": "2026-07-08T06:08:04.277445+00:00",
+    "prediction": {
+      "p_up": 0.4429,
+      "p_down": 0.5571,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.0512 rsi=55.1(-0.103) vol_sig=-0.276 trend=0.0 combined=-0.2294"
+    },
+    "performance": {
+      "hit_rate": 0.5,
+      "sharpe": 0.0,
+      "bankroll": 945.25,
+      "n_trades": 2
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=55.71% kelly=5.00%"
+    },
+    "stake_usd": 47.26,
+    "bankroll": 945.25,
+    "simulated_outcome": {
+      "correct": false,
+      "pnl_usd": -47.26,
+      "new_bankroll": 897.99
+    }
+  },
+  {
+    "asset": "BTC",
+    "timestamp": "2026-07-08T06:09:12.881566+00:00",
+    "prediction": {
+      "p_up": 0.4871,
+      "p_down": 0.5129,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=0.0280 rsi=49.2(0.017) vol_sig=-0.164 trend=0.0 combined=-0.0518"
+    },
+    "performance": {
+      "hit_rate": 0.3333,
+      "sharpe": 0.0,
+      "bankroll": 897.99,
+      "n_trades": 3
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.0129,
+      "reasoning": "Math fallback: p_win=51.29% kelly=1.29%"
+    },
+    "stake_usd": 11.58,
+    "bankroll": 897.99,
+    "simulated_outcome": {
+      "correct": false,
+      "pnl_usd": -11.58,
+      "new_bankroll": 886.41
+    }
+  },
+  {
+    "asset": "ETH",
+    "timestamp": "2026-07-08T06:10:18.451239+00:00",
+    "prediction": {
+      "p_up": 0.4728,
+      "p_down": 0.5272,
+      "signal": "DOWN",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.0955 rsi=36.1(0.279) vol_sig=-0.348 trend=0.0 combined=-0.1090"
+    },
+    "performance": {
+      "hit_rate": 0.3333,
+      "sharpe": 0.0,
+      "bankroll": 886.41,
+      "n_trades": 3
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "NO",
+      "kelly_fraction": 0.0272,
+      "reasoning": "Math fallback: p_win=52.72% kelly=2.72%"
+    },
+    "stake_usd": 24.11,
+    "bankroll": 886.41,
+    "simulated_outcome": {
+      "correct": false,
+      "pnl_usd": -24.11,
+      "new_bankroll": 862.3
+    }
+  },
+  {
+    "asset": "BTC",
+    "timestamp": "2026-07-08T06:11:24.447045+00:00",
+    "prediction": {
+      "p_up": 0.5662,
+      "p_down": 0.4338,
+      "signal": "UP",
+      "model": "multi-signal-v1",
+      "rationale": "mom=0.2139 rsi=40.8(0.185) vol_sig=0.013 trend=0.0 combined=0.2663"
+    },
+    "performance": {
+      "hit_rate": 0.25,
+      "sharpe": 0.0,
+      "bankroll": 862.3,
+      "n_trades": 4
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "YES",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=56.62% kelly=5.00%"
+    },
+    "stake_usd": 43.12,
+    "bankroll": 862.3,
+    "simulated_outcome": {
+      "correct": true,
+      "pnl_usd": 43.12,
+      "new_bankroll": 905.42
+    }
+  },
+  {
+    "asset": "ETH",
+    "timestamp": "2026-07-08T06:12:30.877592+00:00",
+    "prediction": {
+      "p_up": 0.5519,
+      "p_down": 0.4481,
+      "signal": "UP",
+      "model": "multi-signal-v1",
+      "rationale": "mom=-0.0829 rsi=36.6(0.268) vol_sig=0.278 trend=0.0 combined=0.2082"
+    },
+    "performance": {
+      "hit_rate": 0.25,
+      "sharpe": 0.0,
+      "bankroll": 905.42,
+      "n_trades": 4
+    },
+    "llm_decision": {
+      "should_bet": true,
+      "side": "YES",
+      "kelly_fraction": 0.05,
+      "reasoning": "Math fallback: p_win=55.19% kelly=5.00%"
+    },
+    "stake_usd": 45.27,
+    "bankroll": 905.42,
+    "simulated_outcome": {
+      "correct": true,
+      "pnl_usd": 45.27,
+      "new_bankroll": 950.69
+    }
+  }
+]
